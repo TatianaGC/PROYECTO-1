@@ -1,0 +1,54 @@
+body{
+
+   margin:0;
+   padding:0;
+
+   /* color de fondo de la pagina */
+   background:url(imagen\ fruta/adapta);
+   /*adapta la imagen al contendedor */
+   background-size:cover;
+
+   
+}
+
+header{
+    background-filter: blur(3px);;
+}
+
+
+.h2styles{
+    color: darkblue;
+
+}
+
+#h2styles{
+     color: chocolate;
+
+}
+
+.section1 #h2styles{
+   background-color: brown;
+
+}
+
+header{
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+header.h2styles{
+   margin-left: 22px;
+
+}
+
+ul{
+   list-style: none;
+   display:flex ;
+   justify-content: center;
+   gap: 26px;
+   margin-top: 28px;
+}
+
+ul li a{
+   color: burlywood;
+} 
